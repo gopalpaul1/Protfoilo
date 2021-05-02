@@ -1,5 +1,11 @@
 import React from 'react';
 import './Footer.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab, faGitAlt, faGoogle, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {  } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+library.add(fab)
 
 const Footer = () => {
 
@@ -23,7 +29,8 @@ const Footer = () => {
                 <div>
                     <h3 className="header-text">Contact Me</h3>
                     <div>
-                        
+                        <a href="https://github.com/gopalpaul1" target="_blank"><FontAwesomeIcon style={{color:"white", fontSize:"30px",marginRight:"30px"}} icon={fab, faGitAlt} /></a>
+                        <a href="https://www.linkedin.com/in/gopal-paul-ba5050211/" target="_blank"><FontAwesomeIcon style={{color:"cyan", fontSize:"30px"}} icon={fab, faLinkedin} /></a>
                     </div>
                 </div>
             </div>
