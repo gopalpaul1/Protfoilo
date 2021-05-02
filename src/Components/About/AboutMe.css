@@ -1,0 +1,19 @@
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.about-content{
+    width: 500px;
+}
+.about-button{
+    margin: 5px;
+    border: none;
+    color: white;
+    font-size: medium;
+    width: 100px;
+    height: 40px;
+    background-color: #808080a4;
+}

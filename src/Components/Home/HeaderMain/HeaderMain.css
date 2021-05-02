@@ -1,0 +1,32 @@
+.headerMain-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.card-content{
+    margin-top: 100px;
+    text-align: justify;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px; 
+}
+.resume-button{
+    border: none;
+    text-decoration: none;
+    width: 160px;
+    height: 40px;
+    box-shadow: 2px 2px 10px #ffffff73;
+    background-image: linear-gradient(to right, #00ff88, #00ffaa);
+}
+.button-text{
+    color: white;
+    font-size: large;
+}
+.button-text:hover{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}

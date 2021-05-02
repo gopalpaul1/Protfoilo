@@ -1,0 +1,24 @@
+.blogs-container{
+    width: 1120px;
+    height: 100%;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fbfbfb52;
+}
+.blogs-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.blogs-card{
+    margin-bottom: 60px;
+    background-color: white;
+    padding: 20px;
+    color:grey;
+}

@@ -1,0 +1,12 @@
+.form-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.form-card{
+    box-shadow: 5px 5px 5px #9e44b9;
+    padding: 30px;
+    background-color: white;
+}
+
